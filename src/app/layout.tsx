@@ -14,7 +14,11 @@ const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope', displa
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: { default: 'New homes in Addis Ababa', template: '%s' },
+  description: 'Apartments and commercial shops for sale in new developments across Addis Ababa. Request details or book a site viewing.',
   formatDetection: { telephone: false },
+  openGraph: { type: 'website', locale: 'en_ET', images: [{ url: '/og', width: 1200, height: 630 }] },
+  twitter: { card: 'summary_large_image', images: ['/og'] },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 }
 
 export const viewport: Viewport = {

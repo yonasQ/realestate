@@ -1,14 +1,17 @@
 import type { Metadata } from 'next'
 import { InquirySection } from '@/components/inquiry/InquirySection'
 import { getSettings } from '@/lib/queries/settings'
+import { pageMetadata } from '@/lib/seo/metadata'
 
 export async function generateMetadata(): Promise<Metadata> {
   const s = await getSettings()
-  return {
+  return pageMetadata({
     title: `Contact & book a viewing | ${s.brandName}`,
     description: `Ask about apartments and commercial units in ${s.developerName} developments, or book a site viewing in Addis Ababa.`,
-    alternates: { canonical: '/contact' },
-  }
+    path: '/contact',
+    siteName: s.brandName,
+    image: s.heroImage,
+  })
 }
 
 type SearchParams = Promise<{ type?: string; subject?: string }>

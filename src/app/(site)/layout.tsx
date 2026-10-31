@@ -3,6 +3,8 @@ import Script from 'next/script'
 import { Footer } from '@/components/site/Footer'
 import { HeaderSlot } from '@/components/site/HeaderSlot'
 import { getSettings } from '@/lib/queries/settings'
+import { siteGraph } from '@/lib/seo/jsonld'
+import { jsonLd } from '@/lib/seo/site'
 
 /**
  * Public pages render per request (no build-time database access needed), while
@@ -15,6 +17,7 @@ export default async function SiteLayout({ children }: { children: React.ReactNo
   const plausible = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(siteGraph(settings)) }} />
       <HeaderSlot brandName={settings.brandName} brandTagline={settings.brandTagline} />
       <main id="main">{children}</main>
       <Footer settings={settings} />

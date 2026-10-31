@@ -12,6 +12,8 @@ import { AVAILABILITY_LABELS, BUILDING_TYPE_LABELS, CONSTRUCTION_STAGE_LABELS } 
 import { formatPrice, formatRange, formatSize } from '@/lib/format'
 import { getPublicDevelopment } from '@/lib/queries/catalog'
 import { getSettings } from '@/lib/queries/settings'
+import { breadcrumbs, itemList, ORG_ID } from '@/lib/seo/jsonld'
+import { pageMetadata } from '@/lib/seo/metadata'
 import { absoluteUrl, jsonLd } from '@/lib/seo/site'
 
 
@@ -25,18 +27,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const s = await getSettings()
   const title = d.seoTitle || `${d.name}, ${d.area}: ${BUILDING_TYPE_LABELS[d.buildingType].toLowerCase()} development | ${s.brandName}`
   const description = d.seoDescription || d.summary
-  const og = data.photos[0]?.variants.find((v) => v.width >= 1200) ?? data.photos[0]?.variants.at(-1)
-  return {
-    title,
-    description,
-    alternates: { canonical: `/developments/${d.slug}` },
-    openGraph: {
-      title,
-      description,
-      url: absoluteUrl(`/developments/${d.slug}`),
-      images: og ? [{ url: absoluteUrl(mediaUrl(og.key)), width: og.width, height: og.height }] : undefined,
-    },
-  }
+  return pageMetadata({ title, description, path: `/developments/${d.slug}`, siteName: s.brandName, image: data.photos[0] })
 }
 
 export default async function DevelopmentPage({ params }: { params: Params }) {
@@ -59,15 +50,22 @@ export default async function DevelopmentPage({ params }: { params: Params }) {
     ...(d.priceMode !== 'on_request' ? [{ label: 'Pricing', value: formatPrice(d) }] : []),
   ]
 
-  const structured = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: absoluteUrl('/') },
-      { '@type': 'ListItem', position: 2, name: 'Developments', item: absoluteUrl('/developments') },
-      { '@type': 'ListItem', position: 3, name: d.name, item: url },
-    ],
-  }
+  const structured = [
+    {
+      '@context': 'https://schema.org',
+      '@type': d.buildingType === 'residential' ? 'ApartmentComplex' : 'Place',
+      name: d.name,
+      url,
+      description: d.summary,
+      image: photos.slice(0, 6).map((i) => absoluteUrl(mediaUrl(i.variants.at(-1)!.key))),
+      address: { '@type': 'PostalAddress', addressLocality: d.city, addressRegion: d.area, addressCountry: 'ET' },
+      ...(lat != null && lng != null && d.locationPrecision === 'exact' ? { geo: { '@type': 'GeoCoordinates', latitude: lat, longitude: lng } } : {}),
+      ...(d.amenities.length ? { amenityFeature: d.amenities.map((a) => ({ '@type': 'LocationFeatureSpecification', name: a, value: true })) } : {}),
+      provider: { '@id': ORG_ID() },
+    },
+    breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Developments', path: '/developments' }, { name: d.name, path: `/developments/${d.slug}` }]),
+    ...(units.length ? [itemList(`Units in ${d.name}`, units.map((u) => ({ name: u.title, path: `/properties/${u.slug}` })))] : []),
+  ]
 
   return (
     <>

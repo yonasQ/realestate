@@ -6,15 +6,20 @@ import { BUILDING_TYPE_LABELS, BUILDING_TYPES, CONSTRUCTION_STAGE_LABELS, PROPER
 import { formatRange } from '@/lib/format'
 import { getPublicDevelopments } from '@/lib/queries/catalog'
 import { getSettings } from '@/lib/queries/settings'
+import { breadcrumbs, itemList, webPage } from '@/lib/seo/jsonld'
+import { pageMetadata } from '@/lib/seo/metadata'
+import { jsonLd } from '@/lib/seo/site'
 
 
 export async function generateMetadata(): Promise<Metadata> {
   const s = await getSettings()
-  return {
+  return pageMetadata({
     title: `${s.developerName} developments in Addis Ababa | ${s.brandName}`,
     description: `Residential, commercial and mixed-use developments by ${s.developerName} in Sarbet, Aware, Ayat, Piassa, Garment and Gelan: building details, delivery estimates, plans and available units.`,
-    alternates: { canonical: '/developments' },
-  }
+    path: '/developments',
+    siteName: s.brandName,
+    image: s.heroImage,
+  })
 }
 
 type SearchParams = Promise<{ type?: string }>
@@ -26,8 +31,15 @@ export default async function DevelopmentsPage({ searchParams }: { searchParams:
   const list = filter ? all.filter((d) => d.buildingType === filter) : all
   const typesPresent = BUILDING_TYPES.filter((t) => all.some((d) => d.buildingType === t))
 
+  const structured = [
+    webPage('CollectionPage', 'Developments in Addis Ababa', '/developments', 'Residential, commercial and mixed-use developments in Addis Ababa.'),
+    breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Developments', path: '/developments' }]),
+    itemList('Developments', all.map((d) => ({ name: d.name, path: `/developments/${d.slug}` }))),
+  ]
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(structured) }} />
       <section className="pb-10 pt-32 md:pt-36">
         <div className="container-page">
           <nav aria-label="Breadcrumb" className="text-xs font-semibold uppercase tracking-[0.14em] text-stone">

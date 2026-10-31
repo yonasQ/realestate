@@ -9,7 +9,7 @@ import { BUILDING_TYPE_LABELS } from '@/lib/domain'
 import { formatRange } from '@/lib/format'
 import { getFeaturedListings, getListingFacets, getPublicDevelopments } from '@/lib/queries/catalog'
 import { getSettings } from '@/lib/queries/settings'
-import { absoluteUrl } from '@/lib/seo/site'
+import { pageMetadata } from '@/lib/seo/metadata'
 
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -17,12 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const title = `${s.brandName} | Apartments & shops by ${s.developerName} in Addis Ababa`
   const description =
     'Browse apartments and commercial shops for sale in Temer Properties developments across Sarbet, Aware, Ayat, Piassa and Gelan, Addis Ababa. Request details or book a site viewing.'
-  return {
-    title,
-    description,
-    alternates: { canonical: '/' },
-    openGraph: { type: 'website', title, description, url: absoluteUrl('/'), siteName: s.brandName },
-  }
+  return pageMetadata({ title, description, path: '/', siteName: s.brandName, image: s.heroImage })
 }
 
 export default async function HomePage() {

@@ -5,15 +5,18 @@ import { Icon } from '@/components/ui/Icon'
 import { ResponsiveImage } from '@/components/ui/ResponsiveImage'
 import { getPublicDevelopments } from '@/lib/queries/catalog'
 import { getSettings } from '@/lib/queries/settings'
+import { pageMetadata } from '@/lib/seo/metadata'
 
 
 export async function generateMetadata(): Promise<Metadata> {
   const s = await getSettings()
-  return {
+  return pageMetadata({
     title: `About ${s.realtorName ?? s.brandName} | Realtor for ${s.developerName}`,
     description: `How ${s.realtorName ?? s.brandName} helps buyers choose and purchase apartments and commercial units in ${s.developerName} developments in Addis Ababa.`,
-    alternates: { canonical: '/about' },
-  }
+    path: '/about',
+    siteName: s.brandName,
+    image: s.realtorPhoto ?? s.heroImage,
+  })
 }
 
 const HOW_I_HELP = [

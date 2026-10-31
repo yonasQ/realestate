@@ -20,6 +20,8 @@ import {
 import { bathroomsLabel, bedroomsLabel, formatPrice, formatRange, formatSize } from '@/lib/format'
 import { getPublicProperty } from '@/lib/queries/catalog'
 import { getSettings } from '@/lib/queries/settings'
+import { offerAvailability } from '@/lib/seo/jsonld'
+import { pageMetadata } from '@/lib/seo/metadata'
 import { absoluteUrl, jsonLd } from '@/lib/seo/site'
 
 
@@ -33,19 +35,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const s = await getSettings()
   const title = p.seoTitle || `${p.title} in ${d.area}, Addis Ababa | ${s.brandName}`
   const description = p.seoDescription || `${p.summary} ${formatPrice(p)}. Request details or book a viewing.`.slice(0, 300)
-  const og = data.images[0]?.variants.find((v) => v.width >= 1200) ?? data.images[0]?.variants.at(-1)
-  return {
-    title,
-    description,
-    alternates: { canonical: `/properties/${p.slug}` },
-    openGraph: {
-      type: 'website',
-      title,
-      description,
-      url: absoluteUrl(`/properties/${p.slug}`),
-      images: og ? [{ url: absoluteUrl(mediaUrl(og.key)), width: og.width, height: og.height, alt: data.images[0]!.alt }] : undefined,
-    },
-  }
+  return pageMetadata({ title, description, path: `/properties/${p.slug}`, siteName: s.brandName, image: data.images[0] })
 }
 
 export default async function PropertyPage({ params }: { params: Params }) {
@@ -97,7 +87,7 @@ export default async function PropertyPage({ params }: { params: Params }) {
         ...(lat != null && lng != null && d.locationPrecision === 'exact' ? { geo: { '@type': 'GeoCoordinates', latitude: lat, longitude: lng } } : {}),
       },
       ...(p.priceMode === 'fixed' && p.priceAmount && p.priceCurrency
-        ? { offers: { '@type': 'Offer', price: Number(p.priceAmount), priceCurrency: p.priceCurrency, availability: 'https://schema.org/InStock' } }
+        ? { offers: { '@type': 'Offer', price: Number(p.priceAmount), priceCurrency: p.priceCurrency, availability: offerAvailability(p.availability) } }
         : {}),
     },
     {

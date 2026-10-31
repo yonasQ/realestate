@@ -7,6 +7,9 @@ import { PROPERTY_TYPE_PLURAL } from '@/lib/domain'
 import { parseListingFilters, serializeListingFilters, type ListingFilters } from '@/lib/listing-filters'
 import { getListingFacets, searchListings } from '@/lib/queries/catalog'
 import { getSettings } from '@/lib/queries/settings'
+import { breadcrumbs, itemList, webPage } from '@/lib/seo/jsonld'
+import { pageMetadata } from '@/lib/seo/metadata'
+import { jsonLd } from '@/lib/seo/site'
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>
 
@@ -24,12 +27,13 @@ export async function generateMetadata({ searchParams }: { searchParams: SearchP
   // Index only the canonical category views (type/area/beds); other combinations are noindex.
   const indexable = !f.q && !f.development && !f.minSize && !f.maxSize && !f.minPrice && !f.maxPrice && f.sort === 'featured' && f.page === 1
   const canonicalQs = serializeListingFilters({ type: f.type, area: f.area, beds: f.beds })
-  return {
+  return pageMetadata({
     title,
     description: `${headline(f)}: apartments and commercial shops in ${s.developerName} developments. Filter by area, bedrooms and size, then request details or a viewing.`,
-    alternates: { canonical: `/properties${canonicalQs ? `?${canonicalQs}` : ''}` },
-    robots: indexable ? undefined : { index: false, follow: true },
-  }
+    path: `/properties${canonicalQs ? `?${canonicalQs}` : ''}`,
+    siteName: s.brandName,
+    noindex: !indexable,
+  })
 }
 
 export default async function PropertiesPage({ searchParams }: { searchParams: SearchParams }) {
@@ -52,8 +56,15 @@ export default async function PropertiesPage({ searchParams }: { searchParams: S
     return qs ? `/properties?${qs}` : '/properties'
   }
 
+  const structured = [
+    webPage('CollectionPage', headline(filters), '/properties', `${headline(filters)} in new developments.`),
+    breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Properties', path: '/properties' }]),
+    itemList(headline(filters), result.items.map((p) => ({ name: p.title, path: `/properties/${p.slug}` }))),
+  ]
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(structured) }} />
       <section className="bg-ivory pb-8 pt-32 md:pt-36">
         <div className="container-page">
           <nav aria-label="Breadcrumb" className="text-xs font-semibold uppercase tracking-[0.14em] text-stone">
