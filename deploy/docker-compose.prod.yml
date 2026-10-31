@@ -1,0 +1,106 @@
+# Single-server production stack: Caddy (automatic HTTPS) → Next.js app → Postgres.
+# Usage (from repo root):  docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.production up -d
+# Run exactly ONE app replica: cache invalidation is per instance (see docs/DEPLOYMENT.md).
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-realtor}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-realtor}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-realtor} -d ${POSTGRES_DB:-realtor}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [internal]
+
+  migrate:
+    build: { context: .., target: tools }
+    env_file: .env.production
+    command: ["pnpm", "db:migrate"]
+    depends_on: { db: { condition: service_healthy } }
+    restart: "no"
+    networks: [internal]
+
+  app:
+    build:
+      context: ..
+      target: runner
+      args:
+        NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${NEXT_PUBLIC_TURNSTILE_SITE_KEY:-}
+        NEXT_PUBLIC_PLAUSIBLE_DOMAIN: ${NEXT_PUBLIC_PLAUSIBLE_DOMAIN:-}
+    restart: unless-stopped
+    env_file: .env.production
+    environment:
+      TRUST_PROXY: "true"
+    volumes:
+      - media:/data/storage
+    depends_on:
+      db: { condition: service_healthy }
+      migrate: { condition: service_completed_successfully }
+    networks: [internal]
+
+  # One-off admin tasks, e.g.:
+  #   docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.production run --rm tools pnpm admin:create --email you@domain --name "Your Name"
+  #   ... run --rm tools pnpm import:catalog
+  tools:
+    build: { context: .., target: tools }
+    profiles: ["tools"]
+    env_file: .env.production
+    environment:
+      STORAGE_DIR: /data/storage
+    volumes:
+      - media:/data/storage
+    depends_on: { db: { condition: service_healthy } }
+    networks: [internal]
+
+  caddy:
+    image: caddy:2.8-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443", "443:443/udp"]
+    environment:
+      DOMAIN: ${DOMAIN:?set DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [app]
+    networks: [internal]
+
+  # Retries inquiry notifications that failed or were interrupted (every 5 minutes).
+  cron:
+    image: curlimages/curl:8.10.1
+    restart: unless-stopped
+    env_file: .env.production
+    entrypoint: ["/bin/sh", "-c", "while true; do sleep 300; curl -fsS -m 60 -X POST -H \"Authorization: Bearer $$CRON_SECRET\" http://app:3000/api/cron/notifications || echo 'notification retry run failed'; done"]
+    depends_on: [app]
+    networks: [internal]
+
+  # Nightly logical backup with 14-day retention (copy /backups off-server too!).
+  backup:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      PGHOST: db
+      PGUSER: ${POSTGRES_USER:-realtor}
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+      PGDATABASE: ${POSTGRES_DB:-realtor}
+    volumes:
+      - ../backups:/backups
+      - media:/media:ro
+    entrypoint: ["/bin/sh", "-c", "while true; do ts=$$(date +%Y%m%d-%H%M); pg_dump -Fc -f /backups/db-$$ts.dump && tar -czf /backups/media-$$ts.tgz -C /media . && find /backups -type f -mtime +14 -delete; sleep 86400; done"]
+    depends_on: { db: { condition: service_healthy } }
+    networks: [internal]
+
+volumes:
+  db-data:
+  media:
+  caddy-data:
+  caddy-config:
+
+networks:
+  internal:

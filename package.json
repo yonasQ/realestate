@@ -1,0 +1,53 @@
+{
+  "name": "temer-realtor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.4",
+    "next": "16.3.8",
+    "nodemailer": "^10.1.0",
+    "postgres": "3.4.9",
+    "react": "19.2",
+    "react-dom": "19.2",
+    "server-only": "^0.0.1",
+    "sharp": "0.35.5",
+    "zod": "4.3.3"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "1.55.1",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "drizzle-kit": "0.31.11",
+    "eslint": "9",
+    "eslint-config-next": "16.3.8",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "5.9",
+    "vitest": "3.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx --env-file-if-exists=.env scripts/migrate.ts",
+    "import:catalog": "tsx --env-file-if-exists=.env --conditions=react-server scripts/import-temer.ts",
+    "admin:create": "tsx --env-file-if-exists=.env --conditions=react-server scripts/create-admin.ts",
+    "notifications:process": "tsx --env-file-if-exists=.env --conditions=react-server scripts/process-notifications.ts",
+    "test": "vitest run",
+    "test:e2e": "pnpm build && playwright test",
+    "media:prune": "tsx --env-file-if-exists=.env --conditions=react-server scripts/prune-media.ts",
+    "perf": "node scripts/measure-performance.mjs"
+  }
+}

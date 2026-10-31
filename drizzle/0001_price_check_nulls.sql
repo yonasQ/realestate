@@ -1,0 +1,6 @@
+ALTER TABLE "developments" DROP CONSTRAINT "developments_price_ck";--> statement-breakpoint
+ALTER TABLE "properties" DROP CONSTRAINT "properties_price_ck";--> statement-breakpoint
+ALTER TABLE "developments" ADD CONSTRAINT "developments_price_ck" CHECK (("developments"."price_mode" = 'on_request' AND "developments"."price_amount" IS NULL AND "developments"."price_currency" IS NULL)
+        OR ("developments"."price_mode" IN ('fixed','from','per_sqm_from') AND "developments"."price_amount" IS NOT NULL AND "developments"."price_amount" > 0 AND "developments"."price_currency" IS NOT NULL AND "developments"."price_currency" IN ('ETB','USD')));--> statement-breakpoint
+ALTER TABLE "properties" ADD CONSTRAINT "properties_price_ck" CHECK (("properties"."price_mode" = 'on_request' AND "properties"."price_amount" IS NULL AND "properties"."price_currency" IS NULL)
+        OR ("properties"."price_mode" IN ('fixed','from','per_sqm_from') AND "properties"."price_amount" IS NOT NULL AND "properties"."price_amount" > 0 AND "properties"."price_currency" IS NOT NULL AND "properties"."price_currency" IN ('ETB','USD')));

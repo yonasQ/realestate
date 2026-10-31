@@ -1,0 +1,2466 @@
+{
+  "source": "https://temerproperties.com/",
+  "retrievedAt": "2026-10-12",
+  "note": "Facts transcribed from the developer's public listing pages on temerproperties.com (listings last modified May 2026). Prices are not published by the developer.",
+  "developments": [
+    {
+      "slug": "city-plus-sarbet",
+      "name": "City Plus",
+      "area": "Sarbet",
+      "buildingType": "mixed_use",
+      "buildingConfig": "3B+G+23",
+      "constructionStage": "not_confirmed",
+      "constructionNote": null,
+      "deliveryEstimate": "36 months (developer estimate)",
+      "unitSizeMin": 76,
+      "unitSizeMax": 151,
+      "featured": true,
+      "tagline": "Mixed-use tower near the Sarbet roundabout",
+      "summary": "A 3B+G+23 mixed-use tower in Sarbet offering one-, two- and three-bedroom apartments from 76 m², available fully finished or semi-finished.",
+      "description": "City Plus is Temer Properties' mixed-use tower in Sarbet, close to the roundabout and the African Union headquarters area. The building rises three basement levels, a ground floor and 23 upper floors.\n\nA typical floor combines one-bedroom units with one bathroom, two-bedroom units with two bathrooms, and three-bedroom units with two bathrooms and a maid's room. The developer offers units fully finished or semi-finished, and states an estimated delivery period of 36 months.",
+      "amenities": [
+        "Elevators",
+        "Private parking (1 space per unit)",
+        "EV charging station",
+        "Garbage chute",
+        "Basement parking levels"
+      ],
+      "finishingOptions": [
+        "Fully finished",
+        "Semi-finished"
+      ],
+      "brochureUrl": "https://temerproperties.com/wp-content/uploads/2026/05/CityPlus-Latest-Marketing-Catalogue-Final-5-20-2026G.C-.pdf",
+      "lat": 8.99344,
+      "lng": 38.739331,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-city-plus-one-bedroom-apartment/",
+      "reviewNotes": "Body text of the City Plus listings on temerproperties.com duplicates Sarbet Blue Point content; facts here come from the structured listing fields, listing excerpts and the May 2026 City Plus catalogue. Construction stage not stated. A developer pop-up advertises 'from ETB 120,000 per m²' for a Sarbet project near the roundabout - confirm in writing whether this applies to City Plus before publishing any price.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/cityplus1.jpg",
+          "kind": "render",
+          "caption": "Exterior render of City Plus"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/cityplus2.jpg",
+          "kind": "render",
+          "caption": "Exterior render of City Plus"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/cityplus3.jpg",
+          "kind": "render",
+          "caption": "Exterior render of City Plus"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/mbed.jpg",
+          "kind": "render",
+          "caption": "Interior render published for City Plus"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/mbath.jpg",
+          "kind": "render",
+          "caption": "Interior render published for City Plus"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/bath.jpg",
+          "kind": "render",
+          "caption": "Interior render published for City Plus"
+        }
+      ],
+      "status": "published",
+      "city": "Addis Ababa",
+      "sortOrder": 0
+    },
+    {
+      "slug": "blue-point-sarbet",
+      "name": "Blue Point",
+      "area": "Sarbet",
+      "buildingType": "residential",
+      "buildingConfig": "B+G+21+T",
+      "constructionStage": "pre_construction",
+      "constructionNote": "Excavation to begin (developer listing, May 2026)",
+      "deliveryEstimate": "36 months (developer estimate)",
+      "unitSizeMin": 139,
+      "unitSizeMax": 152,
+      "featured": true,
+      "tagline": "Residential tower in Sarbet",
+      "summary": "A B+G+21+T residential tower in Sarbet with three-bedroom apartments of 139–152 m² and a shared roof terrace.",
+      "description": "Blue Point is a residential tower in Sarbet: one basement, a ground floor, 21 residential floors and a roof terrace. The developer markets three-bedroom apartments of 139–152 m², each with a parking space and access to a shared roof terrace.\n\nAt the time of the developer's latest listing, excavation was due to begin, with an estimated delivery period of 36 months.",
+      "lat": 8.984897,
+      "lng": 38.736911,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/sarbet-blue-point-project/",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/1s.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Blue Point"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/2s.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Blue Point"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/4s.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Blue Point"
+        }
+      ],
+      "status": "published",
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "reviewNotes": null,
+      "brochureUrl": null,
+      "sortOrder": 10
+    },
+    {
+      "slug": "aware-sumeya",
+      "name": "Aware (Sumeya)",
+      "area": "Aware",
+      "buildingType": "residential",
+      "constructionStage": "pre_construction",
+      "constructionNote": "Excavation to begin (developer listing, May 2026)",
+      "deliveryEstimate": "36 months (developer estimate)",
+      "unitSizeMin": 80,
+      "unitSizeMax": 145,
+      "featured": true,
+      "tagline": "Residential tower with a rooftop running track",
+      "summary": "A residential tower in Aware with one- and three-bedroom apartments, a rooftop running track, green terraces and store rooms.",
+      "description": "The Aware project, also marketed as Sumeya, is a residential tower in the Aware area of Addis Ababa. The developer's plans show two blocks per floor with one- and three-bedroom units, many with an additional store room.\n\nThe roof is designed around a running track with green planting, and the developer lists CCTV in common areas, EV charging, green terraces and a standby generator room among the building amenities.",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace",
+        "Rooftop running track",
+        "Store rooms",
+        "Standby generator room"
+      ],
+      "lat": 9.026804,
+      "lng": 38.773278,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/aware-project/",
+      "reviewNotes": "Building configuration conflicts across developer sources (G+20+T in listing text, 2B+G+20+T in listing fields, 2B+G+21+T on project artwork) - omitted until confirmed.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/6.jpg",
+          "kind": "render",
+          "caption": "Exterior render of the Aware (Sumeya) tower"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/10.jpg",
+          "kind": "render",
+          "caption": "Exterior render of the Aware (Sumeya) tower"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/5.jpg",
+          "kind": "render",
+          "caption": "Exterior render of the Aware (Sumeya) tower"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/floorplan-1.jpg",
+          "kind": "plan",
+          "caption": "Typical floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/AO1-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/AO2-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A03-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A04-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A05-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A06-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A07-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/B01-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/B02-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/B03-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/B04-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/B05-3-BED.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        }
+      ],
+      "status": "published",
+      "city": "Addis Ababa",
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "buildingConfig": null,
+      "sortOrder": 20
+    },
+    {
+      "slug": "gelan-commercial-center",
+      "name": "Gelan Commercial Center",
+      "area": "Gelan",
+      "buildingType": "commercial",
+      "buildingConfig": "G+7",
+      "constructionStage": "not_confirmed",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 17,
+      "unitSizeMax": 452,
+      "featured": true,
+      "amenities": [
+        "Elevator",
+        "Parking",
+        "EV charging station",
+        "Garbage chute"
+      ],
+      "tagline": "G+7 shopping center in a fast-growing district",
+      "summary": "A G+7 commercial building in Gelan with retail units from 17 m² to 452 m² across a total floor area of 2,834.79 m².",
+      "description": "Gelan Commercial Center is a G+7 commercial building with a total floor area of 2,834.79 m², of which 1,730.70 m² is lettable or saleable unit area and 1,104.09 m² is common area including terrace. Units range from 17 m² to 452 m².\n\nThe developer describes Gelan as an area of large-scale public housing with significant population growth. The building is planned with an elevator, parking, EV charging and a garbage chute.",
+      "lat": 8.879121,
+      "lng": 38.766508,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/gelan-commercial-center",
+      "reviewNotes": "Construction status conflicts on the developer listing ('Excavation to begin' in the fact table vs 'excavation work already completed' in the description) - omitted until confirmed. Developer lists the city as Addis Ababa; confirm administrative location (Gelan town) for legal documents.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/12g.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Gelan Commercial Center"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/9g.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Gelan Commercial Center"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/8g.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Gelan Commercial Center"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/11/7g.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Gelan Commercial Center"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/gelan-floorpplan.jpg",
+          "kind": "plan",
+          "caption": "Commercial floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/groundfloor-gelan.jpg",
+          "kind": "plan",
+          "caption": "Ground floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/1stfloor-gelan.jpg",
+          "kind": "plan",
+          "caption": "First floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/secondfloor-gelan.jpg",
+          "kind": "plan",
+          "caption": "Second floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/3rdfloor-gelan.jpg",
+          "kind": "plan",
+          "caption": "Third floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/4thfloor.jpg",
+          "kind": "plan",
+          "caption": "Fourth floor plan"
+        }
+      ],
+      "status": "published",
+      "city": "Addis Ababa",
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "sortOrder": 30
+    },
+    {
+      "slug": "lycee-seken",
+      "name": "Lycée Seken",
+      "area": "Piassa",
+      "buildingType": "residential",
+      "buildingConfig": "B+G+19+T",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 63,
+      "unitSizeMax": 146,
+      "tagline": "Residences in central Piassa",
+      "summary": "A B+G+19+T residential building in Piassa (Lycée 003 site) with one-, two- and three-bedroom apartments.",
+      "description": "Lycée Seken - listed by the developer as the Lycée 003 site - is a residential building in Piassa with a basement, ground floor, 19 residential floors and a terrace. It offers one-, two- and three-bedroom apartments.\n\nThe developer reports excavation as finished and gives an estimated delivery period of 30 months.",
+      "lat": 9.036278,
+      "lng": 38.752639,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/lycee-seken-project/",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/06/00020.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/06/0008.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/06/0002.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/06/0001.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/06/0022.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/06/0054.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/06/0059.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-Floorplan.jpg",
+          "kind": "plan",
+          "caption": "Typical floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-1-bed-01.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-2bed-08.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-3bed-02.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-3-bed-03.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-3bed-04.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-3-bed-05.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-3-bed-06.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/seken-3bed-07.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "reviewNotes": null,
+      "brochureUrl": null,
+      "sortOrder": 40
+    },
+    {
+      "slug": "sarbet-au",
+      "name": "Sarbet AU",
+      "area": "Sarbet",
+      "buildingType": "residential",
+      "buildingConfig": "2B+G+20+T",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 130,
+      "unitSizeMax": 130,
+      "tagline": "Residential tower in Sarbet",
+      "summary": "A 2B+G+20+T residential building in Sarbet with three-bedroom apartments of 130 m².",
+      "description": "Sarbet AU is a residential building in Sarbet with two basement levels, a ground floor, 20 residential floors and a terrace. The developer lists three-bedroom apartments of 130 m² with two bathrooms and a parking space.\n\nThe developer reports excavation as finished and gives an estimated delivery period of 30 months.",
+      "sourceUrl": "https://temerproperties.com/sarbet-au-project/",
+      "reviewNotes": "Map pin omitted: the developer uses different coordinates for the two Sarbet AU listings.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Livingroom-3.jpg",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Livingroom2-1.jpg",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0008-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/sarbetau-floorplan.jpg",
+          "kind": "plan",
+          "caption": "Typical floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/sarbetau-3-bed-01.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/sarbetau-3-bed-03.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/sarbetau-3-bed-05.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/sarbetau-3-bed-06.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/sarbetau-2bed-02.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/sarbetau-2-bed-04.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "lat": null,
+      "lng": null,
+      "locationPrecision": null,
+      "brochureUrl": null,
+      "sortOrder": 50
+    },
+    {
+      "slug": "ayat-to-center",
+      "name": "Ayat To Center",
+      "area": "Ayat",
+      "buildingType": "residential",
+      "buildingConfig": "3B+G+15",
+      "constructionStage": "not_confirmed",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 137,
+      "unitSizeMax": 137,
+      "tagline": "Residences in Ayat",
+      "summary": "A 3B+G+15 residential building in Ayat with three-bedroom apartments of 137 m².",
+      "description": "Ayat To Center is a residential building in the Ayat area with three basement levels, a ground floor and 15 residential floors. The developer lists three-bedroom apartments of 137 m² with two bathrooms and a parking space, and an estimated delivery period of 30 months.",
+      "lat": 9.0225,
+      "lng": 38.884083,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/ayat-to-center-project/",
+      "reviewNotes": "Developer listing body text is copied from the Lycée 002 listing (different location and size); facts here come from the structured fields only. Construction stage not confirmed. Map pin is a general Ayat pin reused by several developer listings.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Livingroom-3.jpg",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Livingroom2-1.jpg",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0030-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0008-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "sortOrder": 60
+    },
+    {
+      "slug": "arada-shopping-center",
+      "name": "Arada Shopping Center",
+      "area": "Piassa",
+      "buildingType": "commercial",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "16 months (developer estimate)",
+      "unitSizeMin": 10,
+      "unitSizeMax": null,
+      "amenities": [
+        "Elevator",
+        "Parking",
+        "EV charging station",
+        "Garbage chute"
+      ],
+      "tagline": "Commercial units in Piassa",
+      "summary": "A commercial building in Piassa (Mehamud Muzika Bet site) with shop units from 10 m².",
+      "description": "Arada Shopping Center, listed by the developer as the Mehamud Muzika Bet site, is a commercial building in Piassa with shop units starting from 10 m². The developer reports excavation as finished, plans an elevator, parking, EV charging and a garbage chute, and gives an estimated delivery period of 16 months.",
+      "lat": 9.036806,
+      "lng": 38.753528,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/arada-site-shops-2/",
+      "reviewNotes": "Building configuration conflicts on the developer listing (B+G+5 vs 2B+G+5) - omitted. Renders are shared by three Piassa commercial listings; confirm which building they depict.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_H-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_I-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_H-3.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_J.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_G-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_F-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_E-2.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_D.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_C-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_B.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "buildingConfig": null,
+      "sortOrder": 70
+    },
+    {
+      "slug": "adwa-empire",
+      "name": "Adwa Empire",
+      "area": "Piassa",
+      "buildingType": "commercial",
+      "buildingConfig": "2B+G+5",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "16 months (developer estimate)",
+      "unitSizeMin": 10,
+      "unitSizeMax": null,
+      "amenities": [
+        "Elevator",
+        "Parking",
+        "EV charging station",
+        "Garbage chute"
+      ],
+      "tagline": "Commercial units in Piassa",
+      "summary": "A 2B+G+5 commercial building in Piassa (Adwa 002 site) with shop units from 10 m².",
+      "description": "Adwa Empire, listed by the developer as the Adwa 002 site, is a 2B+G+5 commercial building in Piassa with shop units starting from 10 m². The developer reports excavation as finished and gives an estimated delivery period of 16 months.",
+      "lat": 9.036806,
+      "lng": 38.753528,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/adwa-empire-shops/",
+      "reviewNotes": "Renders shared with other Piassa commercial listings. Map pin is a general Piassa pin.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_H-3.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_G-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_F-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_E-2.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_C-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_B.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_A.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_J.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_I-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "sortOrder": 80
+    },
+    {
+      "slug": "adwa-ewket",
+      "name": "Adwa Ewket",
+      "area": "Piassa",
+      "buildingType": "commercial",
+      "buildingConfig": "2B+G+5",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "16 months (developer estimate)",
+      "unitSizeMin": 10,
+      "unitSizeMax": null,
+      "amenities": [
+        "Elevator",
+        "Parking",
+        "EV charging station",
+        "Garbage chute"
+      ],
+      "tagline": "Commercial units in Piassa",
+      "summary": "A 2B+G+5 commercial building in Piassa (Adwa 001 site) with shop units from 10 m².",
+      "description": "Adwa Ewket, listed by the developer as the Adwa 001 site, is a 2B+G+5 commercial building in Piassa with shop units starting from 10 m². The developer reports excavation as finished and gives an estimated delivery period of 16 months.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/adwa-ewketshops-2/",
+      "reviewNotes": "Map pin omitted: developer listing places this Piassa site at Ayat coordinates.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_E-2.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_H-3.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_C-1.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_B.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Goldmall_J.png",
+          "kind": "render",
+          "caption": "Developer render published for Temer's Piassa commercial listings"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "finishingOptions": [],
+      "lat": null,
+      "lng": null,
+      "locationPrecision": null,
+      "brochureUrl": null,
+      "sortOrder": 90
+    },
+    {
+      "slug": "achante-ayat",
+      "name": "Achante",
+      "area": "Ayat",
+      "buildingType": "residential",
+      "buildingConfig": "B+G+10+T",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 111,
+      "unitSizeMax": 137,
+      "tagline": "Mid-rise residences in Ayat",
+      "summary": "A B+G+10+T residential building in Ayat with three-bedroom apartments of 111–137 m².",
+      "description": "Achante is a mid-rise residential building in Ayat with a basement, ground floor, ten residential floors and a terrace. The developer's typical floor plan shows eight apartments per floor; listed three-bedroom units range from 111 to 137 m².\n\nThe developer reports excavation as finished and gives an estimated delivery period of 30 months.",
+      "lat": 9.0225,
+      "lng": 38.884083,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/achante-project/",
+      "reviewNotes": "Map pin is a general Ayat pin reused by several developer listings.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/achantansk-min-1.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Achante"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/FLOORPLAN.jpg",
+          "kind": "plan",
+          "caption": "Typical floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A-01.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A-02.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A-03.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A-04.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A-05.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/A-06.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        }
+      ],
+      "status": "draft",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "sortOrder": 100
+    },
+    {
+      "slug": "ayat-feres-bet",
+      "name": "Ayat Feres Bet",
+      "area": "Ayat",
+      "buildingType": "residential",
+      "buildingConfig": "2B+G+16+T",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 86,
+      "unitSizeMax": 121,
+      "tagline": "Residences in Ayat",
+      "summary": "A 2B+G+16+T residential building in Ayat with two- and three-bedroom apartments of 86–121 m².",
+      "description": "Ayat Feres Bet is a residential building in Ayat with two basement levels, a ground floor, 16 residential floors and a terrace. Two-bedroom apartments are listed at 86–88 m² and three-bedroom apartments at 106–121 m².\n\nThe developer reports excavation as finished and gives an estimated delivery period of 30 months.",
+      "lat": 9.0225,
+      "lng": 38.884083,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/ayat-feres-bet-project-2/",
+      "reviewNotes": "Map pin is a general Ayat pin reused by several developer listings.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/ferestbetSkb-min-1.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Ayat Feres Bet"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0036-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/00020-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0001-6.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0003-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/affloor.jpg",
+          "kind": "plan",
+          "caption": "Typical floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/3-Bed-AA-unit.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/3-Bed-Ab-unit.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/3-bed-Ac-unit.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/3-bedroom-Be-unit.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/3-bedroom-BF-UNIT.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/3-bEDROOM-bH-UNIT.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/2-Bed-BG-Unit.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/2BED-AD-unit.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "sortOrder": 110
+    },
+    {
+      "slug": "sumale-tera",
+      "name": "Sumale Tera",
+      "area": "Piassa",
+      "buildingType": "residential",
+      "buildingConfig": "2B+G+14+T",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 110,
+      "unitSizeMax": 123,
+      "tagline": "Residences in Piassa",
+      "summary": "A 2B+G+14+T residential building in Piassa with three-bedroom apartments of 110–123 m².",
+      "description": "Sumale Tera is a residential building in the Piassa area with two basement levels, a ground floor, 14 residential floors and a terrace. Three-bedroom apartments are listed at 110–123 m².\n\nThe developer reports excavation as finished and gives an estimated delivery period of 30 months.",
+      "lat": 9.031806,
+      "lng": 38.7455,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sumaletera-three-bedroom-apartment/",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/00020-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0003-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0002-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0001-6.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "reviewNotes": null,
+      "brochureUrl": null,
+      "sortOrder": 120
+    },
+    {
+      "slug": "ayat-lomiyad",
+      "name": "Ayat Lomiyad",
+      "area": "Ayat",
+      "buildingType": "residential",
+      "constructionStage": "not_confirmed",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 129,
+      "unitSizeMax": 154,
+      "tagline": "Family apartments in Ayat",
+      "summary": "A residential building in Ayat with two- and three-bedroom apartments of 129–154 m².",
+      "description": "Ayat Lomiyad is a residential development in the Ayat area. The developer lists two-bedroom apartments of 129 m² and three-bedroom apartments of 154 m², with an estimated delivery period of 30 months.",
+      "lat": 9.027167,
+      "lng": 38.878306,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/ayat-lomiyad-three-bedroom-apartment-2/",
+      "reviewNotes": "Developer listings conflict on building configuration (2B+G+20+T vs 3B+G+22+T; catalogue says 2B+G+15) and stage (Excavation finished vs Blockwork finished) - omitted until confirmed.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/ayat-lomiyadsk-min.jpg",
+          "kind": "render",
+          "caption": "Exterior render of Ayat Lomiyad"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0002-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0003-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0001-5.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/00020-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Livingroom-3.jpg",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "buildingConfig": null,
+      "sortOrder": 130
+    },
+    {
+      "slug": "aware-4-kilo",
+      "name": "Aware – 4 Kilo",
+      "area": "4 Kilo",
+      "buildingType": "residential",
+      "buildingConfig": "2B+G+20+T",
+      "status": "draft",
+      "constructionStage": "not_confirmed",
+      "deliveryEstimate": "18 months (developer estimate)",
+      "unitSizeMin": 120,
+      "unitSizeMax": 156,
+      "tagline": "Residences near 4 Kilo",
+      "summary": "A 2B+G+20+T residential building near 4 Kilo with two- and three-bedroom apartments.",
+      "description": "A residential building near 4 Kilo listed by the developer with two-bedroom apartments of 120–121 m² and three-bedroom apartments of 146–156 m².",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/aware-4-kilo-three-bedroom-apartment/",
+      "reviewNotes": "Held as draft: the developer's two listings disagree on status ('On Hold' vs 'Excavation finished'). Confirm project status with Temer before publishing.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0002-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        }
+      ],
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "lat": null,
+      "lng": null,
+      "locationPrecision": null,
+      "brochureUrl": null,
+      "sortOrder": 140
+    },
+    {
+      "slug": "sarbet-seken",
+      "name": "Sarbet Seken",
+      "area": "Sarbet",
+      "buildingType": "residential",
+      "buildingConfig": "2B+G+20+T",
+      "status": "draft",
+      "constructionStage": "structure",
+      "constructionNote": "Blockwork finished (developer listing, May 2026)",
+      "deliveryEstimate": "30 months (developer estimate)",
+      "unitSizeMin": 133,
+      "unitSizeMax": 146,
+      "tagline": "Residences in Sarbet",
+      "summary": "A residential building with three-bedroom apartments of 133–146 m².",
+      "description": "Sarbet Seken is listed by the developer with three-bedroom apartments of 133–146 m² and blockwork reported as finished.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-three-bedroom-apartment-2/",
+      "reviewNotes": "Held as draft: the developer listing places it in Sarbet (2B+G+20+T) while the May 2026 catalogue lists 'Sarbet Seken' in Garment (2B+G+21). Confirm location before publishing.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0002-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0001-6.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0036-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0030-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        }
+      ],
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "lat": null,
+      "lng": null,
+      "locationPrecision": null,
+      "brochureUrl": null,
+      "sortOrder": 150
+    },
+    {
+      "slug": "haile-garment",
+      "name": "Haile Garment",
+      "area": "Garment",
+      "buildingType": "mixed_use",
+      "buildingConfig": "2B+G+20 with commercial podium",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "18 months (developer estimate)",
+      "unitSizeMin": 139,
+      "unitSizeMax": 139,
+      "tagline": "Mixed-use living in Garment",
+      "summary": "A mixed-use building in the Haile Garment area with three-bedroom apartments of 139 m² above commercial space.",
+      "description": "Haile Garment is a mixed-use building with two basement levels, a ground floor and 20 floors, combining apartments with commercial space. The developer lists three-bedroom apartments of 139 m² with two bathrooms and a parking space.\n\nThe developer reports excavation as finished and gives an estimated delivery period of 18 months.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/haile-garment-three-bedroom-apartment/",
+      "reviewNotes": "Map pin omitted: developer listing reuses coordinates from another site.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/00020-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0036-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0030-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0003-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0001-6.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "lat": null,
+      "lng": null,
+      "locationPrecision": null,
+      "brochureUrl": null,
+      "sortOrder": 160
+    },
+    {
+      "slug": "lycee-new-road",
+      "name": "Lycée New Road",
+      "area": "Piassa",
+      "buildingType": "residential",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "36 months (developer estimate)",
+      "unitSizeMin": 71,
+      "unitSizeMax": 139,
+      "tagline": "Residences on Lycée New Road",
+      "summary": "A residential tower in Piassa (Lycée 002 site) with two- and three-bedroom apartments of 71–139 m².",
+      "description": "Lycée New Road - the developer's Lycée 002 site in Piassa - offers two-bedroom apartments of 71–99 m² and three-bedroom apartments of 139 m².\n\nThe developer reports excavation as finished and gives an estimated delivery period of 36 months.",
+      "sourceUrl": "https://temerproperties.com/lycee-newroad-project/",
+      "reviewNotes": "Building configuration conflicts (3B+G+22+T on listings, B+G+22 in catalogue) - omitted. Map pin omitted: listing coordinates point to Sarbet.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0002-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0003-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/00020-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0001-6.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-2-bed-A1.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/NEW-2-BED-A4.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/NEW-2BED-B1.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/NEW-2BED-B4.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-3-bed-a2.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-3-bed-a3.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-3-bed-a5.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-3bed-b2.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-3bed-b3.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-3bed-b5.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/new-3bed-b6.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "lat": null,
+      "lng": null,
+      "locationPrecision": null,
+      "brochureUrl": null,
+      "buildingConfig": null,
+      "sortOrder": 170
+    },
+    {
+      "slug": "lycee-burat",
+      "name": "Lycée Burat",
+      "area": "Piassa",
+      "buildingType": "residential",
+      "constructionStage": "excavation",
+      "constructionNote": "Excavation finished (developer listing, May 2026)",
+      "deliveryEstimate": "42 months (developer estimate)",
+      "unitSizeMin": 46,
+      "unitSizeMax": 75,
+      "tagline": "Compact residences near Lycée",
+      "summary": "A residential tower in Piassa (Lycée 001 site) with one-bedroom apartments from 46 m².",
+      "description": "Lycée Burat - the developer's Lycée 001 site in Piassa - is planned with compact one-, two- and three-bedroom apartments. The developer lists unit areas of 46–75 m² for the building and an estimated delivery period of 42 months.",
+      "lat": 9.02475,
+      "lng": 38.754389,
+      "locationPrecision": "approximate",
+      "sourceUrl": "https://temerproperties.com/lycee-burat-project/",
+      "reviewNotes": "Building configuration conflicts (2B+G+21+T listing vs B+G+22 catalogue) - omitted. Two- and three-bedroom listings show 116 m², outside the stated 46–75 m² range - held as drafts.",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0005-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0003-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0002-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/00020-3.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0001-6.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/0022-2.png",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/05/Livingroom-3.jpg",
+          "kind": "render",
+          "caption": "Interior render published by the developer; representative of the finish concept, not of a specific unit"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-floorplan.jpg",
+          "kind": "plan",
+          "caption": "Typical floor plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-1bed-B2.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-1bed-a4.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-1-bed-b4.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-1-bed-A7.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-1-bed-A6.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-1-bed-a5.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-2-bed-A1.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/birat-2-bed-A2.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-2-bed-b3.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-2-bed-B1.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-2-bed-B5.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-2-bed-B6.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2025/12/burat-3-bed-A8.jpg",
+          "kind": "plan",
+          "caption": "Unit plan"
+        }
+      ],
+      "status": "published",
+      "featured": false,
+      "city": "Addis Ababa",
+      "amenities": [
+        "Elevator",
+        "Dedicated parking",
+        "EV charging station",
+        "Garbage chute",
+        "CCTV surveillance in common areas",
+        "Underground water storage",
+        "Children's play area",
+        "Green terrace"
+      ],
+      "finishingOptions": [],
+      "brochureUrl": null,
+      "buildingConfig": null,
+      "sortOrder": 180
+    }
+  ],
+  "properties": [
+    {
+      "slug": "city-plus-one-bedroom-apartment",
+      "development": "city-plus-sarbet",
+      "title": "One-Bedroom Apartment, City Plus",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": true,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sizeSqm": 76,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "One-bedroom apartment of 76 m² with one bathroom and a private parking space, offered fully finished or semi-finished.",
+      "highlights": [
+        "76 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-city-plus-one-bedroom-apartment/",
+      "images": [
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/mbed.jpg",
+          "kind": "render",
+          "caption": "Interior render published for City Plus one-bedroom units"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/mbath.jpg",
+          "kind": "render",
+          "caption": "Interior render published for City Plus one-bedroom units"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/bath.jpg",
+          "kind": "render",
+          "caption": "Interior render published for City Plus one-bedroom units"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/cityplus1.jpg",
+          "kind": "render",
+          "caption": "Exterior render of City Plus"
+        },
+        {
+          "url": "https://temerproperties.com/wp-content/uploads/2026/05/cityplus2.jpg",
+          "kind": "render",
+          "caption": "Exterior render of City Plus"
+        }
+      ],
+      "sortOrder": 0
+    },
+    {
+      "slug": "city-plus-two-bedroom-apartment",
+      "development": "city-plus-sarbet",
+      "title": "Two-Bedroom Apartment, City Plus",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": true,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sizeSqm": 100,
+      "sizeMinSqm": 99,
+      "sizeMaxSqm": 100,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 99–100 m² with two bathrooms and a private parking space.",
+      "highlights": [
+        "100 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-city-plus-two-bedroom/",
+      "images": null,
+      "sortOrder": 10
+    },
+    {
+      "slug": "city-plus-three-bedroom-apartment",
+      "development": "city-plus-sarbet",
+      "title": "Three-Bedroom Apartment, City Plus",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": true,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 151,
+      "sizeMinSqm": 136,
+      "sizeMaxSqm": 151,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 136–151 m² with two bathrooms, a maid's room and a private parking space.",
+      "highlights": [
+        "151 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-city-plus-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 20
+    },
+    {
+      "slug": "blue-point-three-bedroom-apartment",
+      "development": "blue-point-sarbet",
+      "title": "Three-Bedroom Apartment, Blue Point",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": true,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 145,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 145 m² with two bathrooms, a parking space and access to a shared roof terrace.",
+      "highlights": [
+        "145 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-blue-point-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 30
+    },
+    {
+      "slug": "aware-sumeya-three-bedroom-apartment",
+      "development": "aware-sumeya",
+      "title": "Three-Bedroom Apartment, Aware (Sumeya)",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": true,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 145,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of up to 145 m² with two bathrooms, a parking space and use of the rooftop running track and terraces.",
+      "highlights": [
+        "145 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/aware-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 40
+    },
+    {
+      "slug": "aware-sumeya-one-bedroom-apartment",
+      "development": "aware-sumeya",
+      "title": "One-Bedroom Apartment, Aware (Sumeya)",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 1,
+      "bathrooms": null,
+      "sizeSqm": 80,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "One-bedroom apartment of 80 m² with a parking space and access to the shared rooftop and terraces.",
+      "highlights": [
+        "80 m² unit area",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/aware-one-bedroom-apartment-3/",
+      "images": null,
+      "sortOrder": 50
+    },
+    {
+      "slug": "gelan-commercial-center-shops",
+      "development": "gelan-commercial-center",
+      "title": "Commercial Shops, Gelan Commercial Center",
+      "propertyType": "shop",
+      "status": "published",
+      "featured": true,
+      "bedrooms": null,
+      "bathrooms": null,
+      "sizeSqm": null,
+      "sizeMinSqm": 17,
+      "sizeMaxSqm": 452,
+      "parkingSpaces": null,
+      "summary": "Retail units from 17 m² to 452 m² in a G+7 commercial building in Gelan.",
+      "highlights": [
+        "Units from 17 m² to 452 m²",
+        "2,834.79 m² total floor area",
+        "Elevator and parking",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/gelan-shopping-center/",
+      "images": null,
+      "sortOrder": 60
+    },
+    {
+      "slug": "lycee-seken-one-bedroom-apartment",
+      "development": "lycee-seken",
+      "title": "One-Bedroom Apartment, Lycée Seken",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sizeSqm": 63,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "One-bedroom apartment of 63 m² at lycée seken, piassa.",
+      "highlights": [
+        "63 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": "Held as draft: listing fields say 86 m², listing text says 63 SQM. Confirm unit size.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-003-one-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 70
+    },
+    {
+      "slug": "lycee-seken-two-bedroom-apartment",
+      "development": "lycee-seken",
+      "title": "Two-Bedroom Apartment, Lycée Seken",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sizeSqm": 86,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 86 m² at lycée seken, piassa.",
+      "highlights": [
+        "86 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-003-seken-three-bedroom/",
+      "images": null,
+      "sortOrder": 80
+    },
+    {
+      "slug": "lycee-seken-three-bedroom-apartment",
+      "development": "lycee-seken",
+      "title": "Three-Bedroom Apartment, Lycée Seken",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 146,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 146 m² at lycée seken, piassa.",
+      "highlights": [
+        "146 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-seken-seken-three-bedroom-2/",
+      "images": null,
+      "sortOrder": 90
+    },
+    {
+      "slug": "sarbet-au-two-bedroom-apartment",
+      "development": "sarbet-au",
+      "title": "Two-Bedroom Apartment, Sarbet AU",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sizeSqm": 130,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 130 m² at sarbet au, sarbet.",
+      "highlights": [
+        "130 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": "Held as draft: titled 'Two BedRoom' but listing fields say 3 bedrooms, 130 m² (identical to the three-bedroom listing). Confirm unit mix.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-au-two-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 100
+    },
+    {
+      "slug": "sarbet-au-three-bedroom-apartment",
+      "development": "sarbet-au",
+      "title": "Three-Bedroom Apartment, Sarbet AU",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 130,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 130 m² at sarbet au, sarbet.",
+      "highlights": [
+        "130 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-au-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 110
+    },
+    {
+      "slug": "ayat-to-center-three-bedroom-apartment",
+      "development": "ayat-to-center",
+      "title": "Three-Bedroom Apartment, Ayat To Center",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 137,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 137 m² at ayat to center, ayat.",
+      "highlights": [
+        "137 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/ayat-to-center-three-bedroom-apartment-2/",
+      "images": null,
+      "sortOrder": 120
+    },
+    {
+      "slug": "arada-shopping-center-shops",
+      "development": "arada-shopping-center",
+      "title": "Commercial Shops, Arada Shopping Center",
+      "propertyType": "shop",
+      "status": "published",
+      "featured": false,
+      "bedrooms": null,
+      "bathrooms": null,
+      "sizeSqm": null,
+      "sizeMinSqm": 10,
+      "sizeMaxSqm": null,
+      "parkingSpaces": null,
+      "summary": "Shop units from 10 m² in a commercial building in Piassa.",
+      "highlights": [
+        "Units from 10 m²",
+        "Elevator and parking",
+        "Estimated delivery: 16 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/arada-site-shops-2/",
+      "images": null,
+      "sortOrder": 130
+    },
+    {
+      "slug": "adwa-empire-shops",
+      "development": "adwa-empire",
+      "title": "Commercial Shops, Adwa Empire",
+      "propertyType": "shop",
+      "status": "published",
+      "featured": false,
+      "bedrooms": null,
+      "bathrooms": null,
+      "sizeSqm": null,
+      "sizeMinSqm": 10,
+      "sizeMaxSqm": null,
+      "parkingSpaces": null,
+      "summary": "Shop units from 10 m² in a 2B+G+5 commercial building in Piassa.",
+      "highlights": [
+        "Units from 10 m²",
+        "2B+G+5 building",
+        "Estimated delivery: 16 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/adwa-empire-shops/",
+      "images": null,
+      "sortOrder": 140
+    },
+    {
+      "slug": "adwa-ewket-shops",
+      "development": "adwa-ewket",
+      "title": "Commercial Shops, Adwa Ewket",
+      "propertyType": "shop",
+      "status": "published",
+      "featured": false,
+      "bedrooms": null,
+      "bathrooms": null,
+      "sizeSqm": null,
+      "sizeMinSqm": 10,
+      "sizeMaxSqm": null,
+      "parkingSpaces": null,
+      "summary": "Shop units from 10 m² in a 2B+G+5 commercial building in Piassa.",
+      "highlights": [
+        "Units from 10 m²",
+        "2B+G+5 building",
+        "Estimated delivery: 16 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/adwa-ewketshops-2/",
+      "images": null,
+      "sortOrder": 150
+    },
+    {
+      "slug": "achante-three-bedroom-apartment",
+      "development": "achante-ayat",
+      "title": "Three-Bedroom Apartment, Achante",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 137,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 137 m² at achante, ayat.",
+      "highlights": [
+        "137 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": "Held as draft: listing field says 214 m², outside the 111–137 m² range stated in the same listing. Confirm unit size.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/achantan-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 160
+    },
+    {
+      "slug": "ayat-feres-bet-two-bedroom-apartment",
+      "development": "ayat-feres-bet",
+      "title": "Two-Bedroom Apartment, Ayat Feres Bet",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sizeSqm": 86,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 86 m² at ayat feres bet, ayat.",
+      "highlights": [
+        "86 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/ayatferesbet-two-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 170
+    },
+    {
+      "slug": "ayat-feres-bet-three-bedroom-apartment",
+      "development": "ayat-feres-bet",
+      "title": "Three-Bedroom Apartment, Ayat Feres Bet",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 120,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 120 m² at ayat feres bet, ayat.",
+      "highlights": [
+        "120 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/ayat-feres-betthree-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 180
+    },
+    {
+      "slug": "sumale-tera-three-bedroom-apartment",
+      "development": "sumale-tera",
+      "title": "Three-Bedroom Apartment, Sumale Tera",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 123,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 123 m² at sumale tera, piassa.",
+      "highlights": [
+        "123 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sumaletera-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 190
+    },
+    {
+      "slug": "ayat-lomiyad-four-bedroom-apartment",
+      "development": "ayat-lomiyad",
+      "title": "Four-Bedroom Apartment, Ayat Lomiyad",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "sizeSqm": 154,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Four-bedroom apartment of 154 m² at ayat lomiyad, ayat.",
+      "highlights": [
+        "154 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": "Held as draft: titled 'Four BedRoom' but listing fields say 3 bedrooms, 154 m² (identical to the three-bedroom listing).",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/ayat-lomiyad-four-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 200
+    },
+    {
+      "slug": "ayat-lomiyad-three-bedroom-apartment",
+      "development": "ayat-lomiyad",
+      "title": "Three-Bedroom Apartment, Ayat Lomiyad",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 154,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 154 m² at ayat lomiyad, ayat.",
+      "highlights": [
+        "154 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/ayat-lomiyad-three-bedroom-apartment-2/",
+      "images": null,
+      "sortOrder": 210
+    },
+    {
+      "slug": "ayat-lomiyad-two-bedroom-apartment",
+      "development": "ayat-lomiyad",
+      "title": "Two-Bedroom Apartment, Ayat Lomiyad",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sizeSqm": 129,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 129 m² at ayat lomiyad, ayat.",
+      "highlights": [
+        "129 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/ayatlomiyad-two-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 220
+    },
+    {
+      "slug": "aware-4-kilo-two-bedroom-apartment",
+      "development": "aware-4-kilo",
+      "title": "Two-Bedroom Apartment, Aware – 4 Kilo",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sizeSqm": 120,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 120 m² at aware – 4 kilo, 4 kilo.",
+      "highlights": [
+        "120 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 18 months"
+      ],
+      "reviewNotes": "Developer status 'On Hold'.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/aware-4kilo-two-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 230
+    },
+    {
+      "slug": "aware-4-kilo-three-bedroom-apartment",
+      "development": "aware-4-kilo",
+      "title": "Three-Bedroom Apartment, Aware – 4 Kilo",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 146,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 146 m² at aware – 4 kilo, 4 kilo.",
+      "highlights": [
+        "146 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 18 months"
+      ],
+      "reviewNotes": "Development held as draft pending status confirmation.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/aware-4-kilo-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 240
+    },
+    {
+      "slug": "sarbet-seken-three-bedroom-apartment",
+      "development": "sarbet-seken",
+      "title": "Three-Bedroom Apartment, Sarbet Seken",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 133,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 133 m² at sarbet seken, sarbet.",
+      "highlights": [
+        "133 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 30 months"
+      ],
+      "reviewNotes": "Development location unconfirmed.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/sarbet-three-bedroom-apartment-2/",
+      "images": null,
+      "sortOrder": 250
+    },
+    {
+      "slug": "haile-garment-three-bedroom-apartment",
+      "development": "haile-garment",
+      "title": "Three-Bedroom Apartment, Haile Garment",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 139,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 139 m² at haile garment, garment.",
+      "highlights": [
+        "139 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 18 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/haile-garment-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 260
+    },
+    {
+      "slug": "lycee-new-road-three-bedroom-apartment",
+      "development": "lycee-new-road",
+      "title": "Three-Bedroom Apartment, Lycée New Road",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 139,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 139 m² at lycée new road, piassa.",
+      "highlights": [
+        "139 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-newroad-three-bedroom-apartment-2-2/",
+      "images": null,
+      "sortOrder": 270
+    },
+    {
+      "slug": "lycee-new-road-two-bedroom-apartment",
+      "development": "lycee-new-road",
+      "title": "Two-Bedroom Apartment, Lycée New Road",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sizeSqm": 99,
+      "sizeMinSqm": 71,
+      "sizeMaxSqm": 99,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 71–99 m² with one bathroom and a parking space at Lycée New Road, Piassa.",
+      "highlights": [
+        "99 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 36 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-newroad-three-bedroom-apartment-2/",
+      "images": null,
+      "sortOrder": 280
+    },
+    {
+      "slug": "lycee-burat-three-bedroom-apartment",
+      "development": "lycee-burat",
+      "title": "Three-Bedroom Apartment, Lycée Burat",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sizeSqm": 116,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Three-bedroom apartment of 116 m² at lycée burat, piassa.",
+      "highlights": [
+        "116 m² unit area",
+        "2 bathrooms",
+        "1 private parking space",
+        "Estimated delivery: 42 months"
+      ],
+      "reviewNotes": "116 m² conflicts with the 46–75 m² building range on the same listing.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-burat-three-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 290
+    },
+    {
+      "slug": "lycee-burat-two-bedroom-apartment",
+      "development": "lycee-burat",
+      "title": "Two-Bedroom Apartment, Lycée Burat",
+      "propertyType": "apartment",
+      "status": "draft",
+      "featured": false,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "sizeSqm": 116,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "Two-bedroom apartment of 116 m² at lycée burat, piassa.",
+      "highlights": [
+        "116 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 42 months"
+      ],
+      "reviewNotes": "Same 116 m² as the three-bedroom listing; likely copy error.",
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-burat-two-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 300
+    },
+    {
+      "slug": "lycee-burat-one-bedroom-apartment",
+      "development": "lycee-burat",
+      "title": "One-Bedroom Apartment, Lycée Burat",
+      "propertyType": "apartment",
+      "status": "published",
+      "featured": false,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sizeSqm": 75,
+      "sizeMinSqm": null,
+      "sizeMaxSqm": null,
+      "parkingSpaces": 1,
+      "summary": "One-bedroom apartment of 75 m² at lycée burat, piassa.",
+      "highlights": [
+        "75 m² unit area",
+        "1 bathroom",
+        "1 private parking space",
+        "Estimated delivery: 42 months"
+      ],
+      "reviewNotes": null,
+      "sourceUrl": "https://temerproperties.com/apartment-for-sale/lycee-burat-one-bedroom-apartment/",
+      "images": null,
+      "sortOrder": 310
+    }
+  ]
+}

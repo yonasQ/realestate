@@ -1,0 +1,22 @@
+# Local development / CI database. Production compose lives in deploy/docker-compose.prod.yml.
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: realtor-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: realtor
+      POSTGRES_PASSWORD: realtor_dev_password
+      POSTGRES_DB: realtor
+    ports:
+      - "127.0.0.1:5435:5432"
+    volumes:
+      - realtor-db-data:/var/lib/postgresql/data
+      - ./scripts/db-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U realtor -d realtor"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  realtor-db-data:
